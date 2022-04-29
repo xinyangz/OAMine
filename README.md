@@ -5,6 +5,7 @@
 <h4 align="center">
     <p>
         <a href="https://dl.acm.org/doi/10.1145/3485447.3512035">Paper</a> |
+        <a href="./data">Data</a> |
         <a href="./slides.pdf">Slides</a> |
         <a href="https://youtu.be/vrDPV8EMLnA">Video</a>
     <p>
