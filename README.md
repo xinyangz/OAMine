@@ -19,7 +19,7 @@ This repo contains code for the paper: [OA-Mine: Open-World Attribute Mining for
 * This project works on *open-world product attribute mining* with weak supervision.
 * Unlike previous work that requires attributes of interest to be specified (e.g., "I want to extract brands and colors"), we aim to find *both* new attributes (e.g., "what are possible attributes for TV products") and values (e.g., "4K UHD") from product titles on e-commerce cites.
 * Our framework has two steps: [attribute value candidate generation](./candidate_generation) and [attribute value grouping](./value_grouping).
-* Please check [here](./dataset) for dataset release.
+* Please check [here](./data) for dataset release.
 
 ## Citation
 If you find our code or data useful, please cite:
