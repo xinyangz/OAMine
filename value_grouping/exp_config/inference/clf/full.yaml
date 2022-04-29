@@ -1,0 +1,11 @@
+candidate_dir: ${dataset.candidate_dir}
+exp_dir: ${run.iter_dir}
+model_dir: ${tuning.output_dir}  # loads model from tuning
+output_dir: ${run.iter_dir}/clf_inf
+try_load: false  # not used
+selected_pt: null  # If set to null, use all PTs. If set to comma separated string, use those PTs only
+batch_size: 256
+sampling: 50  # for each attribute value, sample a few contexts that it appeared in, and use their average embedding
+n_gpu: ${run.n_inf_gpu}
+cpu_per_job: 8
+rnd_seed: ${run.rnd_seed}

@@ -1,0 +1,10 @@
+candidate_dir: ${dataset.candidate_dir}
+exp_dir: ${run.iter_dir}
+model_dir: ${tuning.output_dir}
+output_dir: ${inference.embedding.exp_dir}/emb_inf
+selected_pt: null  # If set to null, use all PTs. If set to comma separated string, use those PTs only
+n_gpu: ${run.n_inf_gpu}
+cpu_per_job: 8
+rnd_seed: ${run.rnd_seed}
+sampling: 5  # for each attribute value, sample a few contexts that it appeared in, and use their average embedding
+batch_size: 32

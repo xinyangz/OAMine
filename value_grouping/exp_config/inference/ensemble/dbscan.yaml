@@ -1,0 +1,10 @@
+exp_dir: ${run.iter_dir}
+model_dir: ${tuning.output_dir}
+emb_dir: ${run.iter_dir}/emb_inf
+clf_dir: null  # Set to null will turn off classifier inference.
+output_dir: ${run.iter_dir}/ensemble_inf
+dbscan_thres: 0.03  # use dev set to help select this parameter
+dbscan_min_pts: 5
+dbscan_jobs: 8  # n_jobs for DBSCAN
+selected_pt: null  # If set to null, use all PTs. If set to comma separated string, use those PTs only
+cpu_per_job: 8

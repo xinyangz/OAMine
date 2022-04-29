@@ -1,0 +1,10 @@
+seed_dir: ${dataset.seed_dir}
+candidate_dir: ${dataset.candidate_dir}
+inference_dir: null  # specify if using iterative training
+output_dir: ${run.iter_dir}/data/clf
+overwrite_output: ${run.overwrite_output}
+rnd_seed: ${run.rnd_seed}
+pct_dev: 0
+max_examples_per_set: 1000
+min_examples_per_set: 2
+contexts_per_sample: 100

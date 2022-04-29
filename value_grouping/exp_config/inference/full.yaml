@@ -1,0 +1,7 @@
+# full inference, combines dbscan and classifier, on all PTs
+defaults:
+  - clf: full
+  - embedding: full
+  - ensemble: full
+  - _self_
+

@@ -1,0 +1,13 @@
+seed_dir: ${dataset.seed_dir}
+candidate_dir: ${dataset.candidate_dir}
+inference_dir: null  # specify if using iterative training
+output_dir: ${run.iter_dir}/data/binary
+overwrite_output: ${run.overwrite_output}
+rnd_seed: ${run.rnd_seed}
+neg_only_pts: null  # PT without seed supervision, used for hold out PT experiments
+pct_dev: 0.2
+max_pos_pairs_per_set: 100  # max number of positive pairs to generate from one seed set.
+pos_per_asin: 5  # #positive pairs sampled from one product
+times_negative: 3  # #negative pairs from seed sets per each positive pair
+times_asin_negative: 5  # #negative pairs from unlabeled data per each negative pair
+context_per_sample: 3  # #context sampled per each context-free example

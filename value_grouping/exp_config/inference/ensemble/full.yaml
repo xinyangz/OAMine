@@ -1,0 +1,10 @@
+exp_dir: ${run.iter_dir}
+model_dir: ${tuning.output_dir}
+emb_dir: ${run.iter_dir}/emb_inf
+clf_dir: ${run.iter_dir}/clf_inf
+output_dir: ${run.iter_dir}/ensemble_inf
+dbscan_thres: 0.05
+dbscan_min_pts: 5
+dbscan_jobs: 8  # n_jobs for DBSCAN
+selected_pt: null
+cpu_per_job: 8

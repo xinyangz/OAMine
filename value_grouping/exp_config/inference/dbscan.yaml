@@ -1,0 +1,5 @@
+# dbscan only inference
+defaults:
+  - clf: full
+  - embedding: full
+  - ensemble: dbscan

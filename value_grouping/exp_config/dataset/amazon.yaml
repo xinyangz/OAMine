@@ -1,0 +1,5 @@
+name: Amazon
+dir: /path/to/dataset
+seed_dir: ${dataset.dir}/seed  # seed sets
+candidate_dir: ${dataset.dir}/candidate  # chunked titles from perturbed masking
+eval_dir: ${dataset.dir}/eval  # evaluation clusters

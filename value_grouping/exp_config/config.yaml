@@ -1,0 +1,23 @@
+defaults:
+  - preprocessing: default
+  - dataset: amazon
+  - tuning: multitask
+  - inference: dbscan
+  - _self_
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+run:
+  rnd_seed: 123
+  overwrite_output: true
+  exp_dir: /path/to/output
+  iter_num: 1
+  iter_dir: ${run.exp_dir}/iter_${run.iter_num}
+  cv: 0
+  train_gpu: 0
+  n_inf_gpu: 1
+
+hydra:
+  run:
+    dir: ${run.exp_dir}/hydra/${now:%Y-%m-%d}/${now:%H-%M-%S}
+

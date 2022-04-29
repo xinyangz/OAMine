@@ -1,0 +1,9 @@
+seed_dir: ${dataset.seed_dir}
+candidate_dir: ${dataset.candidate_dir}
+inference_dir: null
+output_dir: ${run.iter_dir}/data/triplet
+pct_dev: 0.2
+max_triplets_per_set: 100
+samples_per_asin: 5  # triplet sampled from each product
+overwrite_output: ${run.overwrite_output}
+rnd_seed: ${run.rnd_seed}
