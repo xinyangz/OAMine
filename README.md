@@ -4,7 +4,7 @@
 
 <h4 align="center">
     <p>
-        <a href="https://dl.acm.org/doi/10.1145/3485447.3512035">Paper</a> |
+        <a href="https://arxiv.org/abs/2204.13874">Paper</a> |
         <a href="./data">Data</a> |
         <a href="./slides.pdf">Slides</a> |
         <a href="https://youtu.be/vrDPV8EMLnA">Video</a>
@@ -13,7 +13,7 @@
 
 ---
 
-This repo contains code for the paper: [OA-Mine: Open-World Attribute Mining for E-Commerce Products with Weak Supervision](https://dl.acm.org/doi/10.1145/3485447.3512035).
+This repo contains code for the paper: [OA-Mine: Open-World Attribute Mining for E-Commerce Products with Weak Supervision](https://arxiv.org/abs/2204.13874).
 
 ## Introduction
 * This project works on *open-world product attribute mining* with weak supervision.
