@@ -1,0 +1,11 @@
+ptb_dir: ${dataset.ptb_dir}
+exp_dir: ${run.iter_dir}
+model_dir: ${tuning.output_dir}
+output_dir: ${run.iter_dir}/clf_inf
+try_load: false
+selected_pt: 'toothbrush,vitamin,tea,sunscreen,shoes,safety_mask,laundry_detergent,conditioner,coffee,breakfast_cereal'
+batch_size: 256
+sampling: 10
+n_gpu: ${run.n_inf_gpu}
+cpu_per_job: 8
+rnd_seed: ${run.rnd_seed}

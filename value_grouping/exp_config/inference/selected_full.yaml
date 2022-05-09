@@ -1,0 +1,5 @@
+defaults:
+  - clf: selected
+  - embedding: full
+  - ensemble: full
+  - _self_
